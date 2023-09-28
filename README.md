@@ -27,7 +27,7 @@ The Livestream Application is a web-based platform that enables users to watch l
 
 ## Usage
 
-1. **Access the Application:** Visit the [Live Demo URL](#) or set up the application locally.
+1. **Access the Application:** Set up the application locally.
 2. **Watch Livestream:** Enjoy live video streams with basic controls.
 3. **Overlay Customization:** Add custom overlays to enhance your viewing experience.
 4. **Video Playback Control:** Play and pause the livestream.
