@@ -1,0 +1,87 @@
+
+API Documentation
+
+Endpoint List
+
+1. **GET /api/overlays**
+   - **Description**: Retrieve a list of all overlays.
+   - **Method**: GET
+   - **Parameters**: None
+   - **Response**:
+     - **Status**: 200 OK
+     - **Body**: JSON array containing overlay objects.
+     - **Example Response**:
+       ```json
+       [
+         {
+           "_id": "5f72338b95055e4bf28a8db3",
+           "content": "Overlay Text",
+           "position": { "x": 50, "y": 50 },
+           "size": { "width": 100, "height": 50 }
+         }
+       ]
+       ```
+
+2. **GET /api/overlays/{overlay_id}**
+   - **Description**: Retrieve a specific overlay by its ID.
+   - **Method**: GET
+   - **Parameters**: `overlay_id` (string) - ID of the overlay.
+   - **Response**:
+     - **Status**: 200 OK
+     - **Body**: JSON object representing the overlay.
+     - **Status**: 404 Not Found (if overlay with the given ID does not exist)
+
+3. **POST /api/overlays**
+   - **Description**: Create a new overlay.
+   - **Method**: POST
+   - **Request Body**: JSON object representing the overlay to be created.
+     - **Example Request Body**:
+       ```json
+       {
+         "content": "New Overlay",
+         "position": { "x": 60, "y": 40 },
+         "size": { "width": 150, "height": 75 }
+       }
+       ```
+   - **Response**:
+     - **Status**: 201 Created
+     - **Body**: JSON object representing the newly created overlay.
+     - **Example Response**:
+       ```json
+       {
+         "_id": "5f72338b95055e4bf28a8db3",
+         "content": "New Overlay",
+         "position": { "x": 60, "y": 40 },
+         "size": { "width": 150, "height": 75 }
+       }
+       ```
+
+4. **PUT /api/overlays/{overlay_id}**
+   - **Description**: Update an existing overlay by its ID.
+   - **Method**: PUT
+   - **Parameters**: `overlay_id` (string) - ID of the overlay.
+   - **Request Body**: JSON object containing updated overlay data.
+   - **Response**:
+     - **Status**: 200 OK
+     - **Body**: JSON object representing the updated overlay.
+     - **Status**: 404 Not Found (if overlay with the given ID does not exist)
+
+5. **DELETE /api/overlays/{overlay_id}**
+   - **Description**: Delete an overlay by its ID.
+   - **Method**: DELETE
+   - **Parameters**: `overlay_id` (string) - ID of the overlay.
+   - **Response**:
+     - **Status**: 200 OK
+     - **Status**: 404 Not Found (if overlay with the given ID does not exist)
+
+#### Authentication
+
+No authentication is required for accessing the API endpoints.
+
+#### Error Handling
+
+- **Status code 500**: Internal Server Error - If a server-side error occurs.
+- **Status code 404**: Not Found - If a resource (overlay) is not found.
+- **Status code 400**: Bad Request - If the request is malformed.
+
+Please customize this documentation with your app-specific details as needed.

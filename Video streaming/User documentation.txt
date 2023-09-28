@@ -1,0 +1,87 @@
+
+
+### User Documentation
+
+#### Overview
+
+Welcome to the Livestream Application! This documentation will guide you on how to set up and use the app to watch a live video stream, customize overlays, and manage your viewing experience.
+
+#### Table of Contents
+
+1. **Getting Started**
+   - System Requirements
+   - Installation
+
+2. **Using the Livestream App**
+   - Watching the Livestream
+   - Adding Custom Overlays
+   - Controlling Video Playback
+   - Adjusting Audio Volume
+
+3. **Managing Overlays**
+   - Viewing Existing Overlays
+   - Updating Overlays
+   - Deleting Overlays
+
+#### 1. Getting Started
+
+**System Requirements:**
+
+Before you begin, ensure that your system meets the following requirements:
+
+- A modern web browser (Google Chrome, Mozilla Firefox, etc.)
+- A stable internet connection
+
+**Installation:**
+
+No installation is required for the Livestream Application. You can access it directly through a web browser.
+
+#### 2. Using the Livestream App
+
+**Watching the Livestream:**
+
+1. Open your web browser and navigate to the Livestream App URL.
+2. You will see the livestream video player on the main page.
+3. Click the "Play" button to start watching the livestream.
+4. Adjust the video volume using the volume control slider.
+
+**Adding Custom Overlays:**
+
+1. Click the "Add Overlay" button located below the video player.
+2. A new overlay will be added to the video stream.
+3. You can customize the overlay text, position, and size as desired.
+4. Click the "Delete" button on an overlay to remove it from the video.
+
+**Controlling Video Playback:**
+
+- Use the "Play" button to toggle between play and pause.
+- Adjust the video volume using the volume control slider.
+- The video stream will automatically start when you load the page.
+
+**Adjusting Audio Volume:**
+
+- Use the volume control slider to adjust the audio volume of the livestream.
+
+#### 3. Managing Overlays
+
+**Viewing Existing Overlays:**
+
+- All existing overlays will be displayed on the video stream.
+- Overlays show custom text and can be moved or resized.
+
+**Updating Overlays:**
+
+1. Click on an overlay you want to edit.
+2. Modify the text, position, or size as needed.
+3. The overlay will be updated automatically.
+
+**Deleting Overlays:**
+
+1. Click the "Delete" button on the overlay you want to remove.
+2. The overlay will be deleted from the video.
+
+---
+
+Congratulations! You are now ready to use the Livestream Application. Enjoy watching the livestream and customizing your viewing experience with overlays.
+
+If you have any questions or encounter issues, please refer to the API Documentation for developers or contact our support team for assistance.
